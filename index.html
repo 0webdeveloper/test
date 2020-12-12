@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>Цветы из шоколада</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo-left-block">
+                <a href="/" class="logo-top">
+                    <img src="img/logo.png" alt="f.lovers" srcset="img/logo@2x.png 2x">
+                </a>
+                <div class="geolocation">
+                    <img src="img/map-pin.svg" alt="">
+                    <p class="city">Липецк</p>
+                </div>
+            </div>
+            <nav class="top-menu" id="main-menu">
+                <ul>
+                    <li>
+                        <a href="#products-block">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="top-tel-block">
+                <a href="" class="js-modal" data-modal="modal-1">Заказать звонок</a>
+                <a href="tel:+79046896356" class="top-tel">+7 (904) 689-63-56</a>
+            </div>
+            <a class="cart-contents" href="">
+                <span class="cart-qty">0</span>
+                <img src="img/basket.svg" alt="">
+                <span class="cart-label">Корзина</span>
+            </a>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="shocolate-flowers">
+
+        <div class="container">
+            <h2>Цветы из
+                <span>шоколада</span></h2>
+            <div class="img-block">
+                <img src="img/items1.jpg" class="item item1" alt="">
+                <img src="img/items2.jpg" class="item item2" alt="">
+                <div class="grid-column">
+                    <a href="#products-block" class="big-round-btn">В каталог</a>
+                    <img src="img/items3.jpg" class="item item3" alt="">
+                    <img src="img/items4.jpg" class="item item4" alt="">
+                </div>
+            </div>
+        </div>
+        <p class="f_lovers-title">F.Lovers</p>
+
+    </section>
+
+    <section class="bouquet-week">
+        <div class="container">
+            <h2>Букет недели</h2>
+
+            <!-- <div class="container"> -->
+            <div class="bouquet-grid">
+                <div class="img-block">
+                    <div class="countdown-container">
+                        <div class="countdown-el days-c">
+                            <p class="big-text" id="days">0</p>
+                            <span>дн</span>
+                        </div>
+                        <div class="countdown-el hours-c">
+                            <p class="big-text" id="hours">0</p>
+                            <span>час</span>
+                        </div>
+                        <div class="countdown-el mins-c">
+                            <p class="big-text" id="mins">0</p>
+                            <span>мин</span>
+                        </div>
+                        <div class="countdown-el seconds-c">
+                            <p class="big-text" id="seconds">0</p>
+                            <span>сек</span>
+                        </div>
+                    </div>
+                    <img class="bouquet-img" src="img/slider/slide1.png" alt="">
+                </div>
+                <div class="right-side-slider">
+                    <div class="slider">
+                        <div>
+                            <div class="goods-info">
+                                <h3 class="goods-slider-title">«Загадка»</h3>
+                                <b>Букет Ассорти из 19 шоколадных роз</b>
+                                <p class="goods-text">Шоколад (белый, молочный), сахар, масло какао, какао тертое, эмульгатор: соевый лецитин, ароматизатор: ванилин идентичный натуральному, эмульгатор: Е476</p>
+
+                                <div class="slider-price">
+                                    <p class="discont-price">1 200
+                                        <span>₽</span></p>
+                                    <p class="full-price">2 350
+                                        <span>₽</span></p>
+                                </div>
+
+                                <form class="cart-form" action="" method="post">
+                                    <div class="quantity">
+                                        <input type="button" value="" class="minus">
+                                        <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                        <input type="button" value="" class="plus">
+                                    </div>
+
+                                    <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В корзину</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- slide 2 -->
+
+                        <div>
+                            <div class="goods-info">
+                                <h3 class="goods-slider-title">«Загадка»</h3>
+                                <b>Букет Ассорти из 19 шоколадных роз</b>
+                                <p class="goods-text">Шоколад (белый, молочный), сахар, масло какао, какао тертое, эмульгатор: соевый лецитин, ароматизатор: ванилин идентичный натуральному, эмульгатор: Е476</p>
+
+                                <div class="slider-price">
+                                    <p class="discont-price">1 200
+                                        <span>₽</span></p>
+                                    <p class="full-price">2 350
+                                        <span>₽</span></p>
+                                </div>
+
+                                <form class="cart-form" action="" method="post">
+                                    <div class="quantity">
+                                        <input type="button" value="" class="minus">
+                                        <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                        <input type="button" value="" class="plus">
+                                    </div>
+
+                                    <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В корзину</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- slide 3 -->
+                        <div>
+                            <div class="goods-info">
+                                <h3 class="goods-slider-title">«Загадка»</h3>
+                                <b>Букет Ассорти из 19 шоколадных роз</b>
+                                <p class="goods-text">Шоколад (белый, молочный), сахар, масло какао, какао тертое, эмульгатор: соевый лецитин, ароматизатор: ванилин идентичный натуральному, эмульгатор: Е476</p>
+
+                                <div class="slider-price">
+                                    <p class="discont-price">1 200
+                                        <span>₽</span></p>
+                                    <p class="full-price">2 350
+                                        <span>₽</span></p>
+                                </div>
+
+                                <form class="cart-form" action="" method="post">
+                                    <div class="quantity">
+                                        <input type="button" value="" class="minus">
+                                        <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                        <input type="button" value="" class="plus">
+                                    </div>
+
+                                    <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В корзину</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- slide 4 -->
+                        <div>
+                            <div class="goods-info">
+                                <h3 class="goods-slider-title">«Загадка»</h3>
+                                <b>Букет Ассорти из 19 шоколадных роз</b>
+                                <p class="goods-text">Шоколад (белый, молочный), сахар, масло какао, какао тертое, эмульгатор: соевый лецитин, ароматизатор: ванилин идентичный натуральному, эмульгатор: Е476</p>
+
+                                <div class="slider-price">
+                                    <p class="discont-price">1 200
+                                        <span>₽</span></p>
+                                    <p class="full-price">2 350
+                                        <span>₽</span></p>
+                                </div>
+
+                                <form class="cart-form" action="" method="post">
+                                    <div class="quantity">
+                                        <input type="button" value="" class="minus">
+                                        <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                        <input type="button" value="" class="plus">
+                                    </div>
+
+                                    <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В корзину</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- slide 5 -->
+                        <div>
+                            <div class="goods-info">
+                                <h3 class="goods-slider-title">«Загадка»</h3>
+                                <b>Букет Ассорти из 19 шоколадных роз</b>
+                                <p class="goods-text">Шоколад (белый, молочный), сахар, масло какао, какао тертое, эмульгатор: соевый лецитин, ароматизатор: ванилин идентичный натуральному, эмульгатор: Е476</p>
+
+                                <div class="slider-price">
+                                    <p class="discont-price">1 200
+                                        <span>₽</span></p>
+                                    <p class="full-price">2 350
+                                        <span>₽</span></p>
+                                </div>
+
+                                <form class="cart-form" action="" method="post">
+                                    <div class="quantity">
+                                        <input type="button" value="" class="minus">
+                                        <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                        <input type="button" value="" class="plus">
+                                    </div>
+
+                                    <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В корзину</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-counter">
+                        <span id="cp">1</span>/<span id="slides-length"></span></div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+    <!-- products -->
+
+    <section class="products" id="products-block">
+
+        <div class="container">
+            <div class="title-block">
+                <h2>Выбери свой букет</h2>
+                <form>
+
+                    <div class="dropdown">
+                        <a href="#" class="link-dropdown">
+                            Популярные
+                        </a>
+                        <ul class="dropdown-list">
+                            <li data-filter="popular" class="active">Популярные</li>
+                            <li data-filter="new">Новинки</li>
+                            <li data-filter="discont">Скидки</li>
+                            <li data-filter="fall">По убыванию цены</li>
+                            <li data-filter="rise">По возрастанию цены</li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container container-grid">
+            <div class="left-sidebar">
+                <form class="" action="" method="post">
+                    <div class="range-block input-block">
+                        <p class="amount-title">Цена (₽):</p>
+                        <div class="slider-range-filter" id="slider-range"></div>
+                        <div class="input-fields">
+                            <input type="text" name="" class="min-val" id="amount1" inputmode="numeric" value="">
+                            <span class="minus-symbol"></span>
+                            <input type="text" name="" class="max-val" id="amount2" inputmode="numeric" value="">
+                        </div>
+                    </div>
+                    <div class="range-block input-block">
+                        <p class="amount-title">Количество шт:</p>
+                        <div class="slider-range-filter" id="slider-range1"></div>
+                        <div class="input-fields">
+                            <input type="text" name="" class="min-val" id="amount3" inputmode="numeric" value="">
+                            <span class="minus-symbol"></span>
+                            <input type="text" name="" class="max-val" id="amount4" inputmode="numeric" value="">
+                        </div>
+                    </div>
+                    <div class="range-block bouquet-block">
+                        <p class="amount-title">Тип:</p>
+                        <div class="checkbox-block bouquet-block">
+                            <label for="check-inp1" class="checked"><input type="radio" value="all" name="typeB"
+                                    id="check-inp1" checked>Все</label>
+                            <label for="check-inp2"><input type="radio" value="bouq" name="typeB"
+                                    id="check-inp2">Букеты</label>
+                            <label for="check-inp3"><input type="radio" value="basket" name="typeB"
+                                    id="check-inp3">Корзинки</label>
+                            <label for="check-inp4"><input type="radio" value="box" name="typeB"
+                                    id="check-inp4">Коробки</label>
+                            <label for="check-inp5"><input type="radio" value="mono" name="typeB"
+                                    id="check-inp5">Монобукеты</label>
+                        </div>
+                    </div>
+                    <div class="range-block flowers-block">
+                        <p class="amount-title">Цветы:</p>
+                        <div class="checkbox-block flovers-block">
+                            <label for="check-inp6" class="checked"><input type="radio" value="all" name="flovers"
+                                    id="check-inp6" checked>Все</label>
+                            <label for="check-inp7"><input type="radio" value="rose" name="flovers"
+                                    id="check-inp7">Розы</label>
+                            <label for="check-inp8"><input type="radio" value="peonies" name="flovers"
+                                    id="check-inp8">Пионы</label>
+                            <label for="check-inp9"><input type="radio" value="tulips" name="flovers"
+                                    id="check-inp9">Тюльпаны</label>
+                            <label for="check-inp10"><input type="radio" value="gerberas" name="flovers"
+                                    id="check-inp10">Гарберы</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right-container">
+                <div id="test"></div>
+                <div id="spinner"></div>
+                <div id="products"></div>
+                <ul class="products-list">
+
+                    <li data-flovers="rose" data-bouq="bouq" data-property="" data-price="1290">
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 290 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                                корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="peonies" data-bouq="basket" data-property="new" data-price="2000">
+
+                        <div class="sale-small-block">
+                            <span class="new-green">new</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">2 000 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="tulips" data-bouq="box" data-property="" data-price="1190">
+
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 190 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="gerberas" data-bouq="mono" data-property="new discount" data-price="1500">
+                        <div class="sale-small-block">
+                            <span class="persent-red">20%</span>
+                            <span class="new-green">new</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 500 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="rose" data-bouq="bouq" data-property="" data-price="1745">
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 745 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="tulips" data-bouq="basket" data-property="" data-price="1130">
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 130 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="peonies" data-bouq="box" data-property="" data-price="1990">
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 990 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="gerberas" data-bouq="mono" data-property="bestseller" data-price="1250">
+                        <div class="sale-small-block">
+                            <span class="bestseller-yellow">bestseller</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 250 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="rose" data-bouq="bouq" data-property="discount" data-price="1000">
+                        <div class="sale-small-block">
+                            <span class="persent-red">20%</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 000 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="peonies" data-bouq="basket" data-property="new" data-price="1310">
+                        <div class="sale-small-block">
+                            <span class="new-green">new</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 310 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="gerberas" data-bouq="box" data-property="bestseller" data-price="1760">
+                        <div class="sale-small-block">
+                            <span class="bestseller-yellow">bestseller</span>
+                        </div>
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 760 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                    <li data-flovers="peonies" data-bouq="mono" data-property="" data-price="1490">
+                        <a href="" class="shop-thumbnail-wrap">
+                            <img width="300" height="300" src="img/bouquet.jpg" alt="">
+                        </a>
+                        <div class="shop-summary-wrap">
+                            <span class="product__title">«Классика»</span>
+                            <p class="products__excerpt">Букет из 19 шоколадных роз</p>
+                        </div>
+                        <span class="product__price">1 490 ₽</span>
+                        <form class="cart-form" action="" method="post">
+                            <div class="quantity">
+                                <input type="button" value="" class="minus">
+                                <input type="number" class="input-text qty text" step="1" min="1" max="" maxlength="3" name="quantity" value="1" title="Qty" inputmode="numeric">
+                                <input type="button" value="" class="plus">
+                            </div>
+
+                            <button type="submit" name="add-to-cart" value="" class="single_add_to_cart_button">В
+                            корзину</button>
+                        </form>
+                    </li>
+                </ul>
+                <button class="show-more-btn">Показать ещё</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2>Контакты</h2>
+        </div>
+        <div class="map-container">
+            <div id="map"></div>
+            <div class="contact-block">
+                <h3>Салон шоколадных цветов "F.Lovers"</h3>
+                <img class="office-img" src="img/contacts.jpg" alt="">
+                <address>
+                    <span>Адрес:</span>
+                    <p>г. Липецк, просп. Победы 29, 1 этаж</p>
+                </address>
+                <address>
+                    <span>График работы:</span>
+                    <p>Ежедневно с 10:00 до 20:00</p>
+                </address>
+                <address>
+                    <a href="tel:+79046896356">+7 (904) 689-63-56</a>
+                    <a href="mailto:info@chokoflovers.ru">info@chokoflovers.ru</a>
+                </address>
+                <ul class="social-group">
+                    <li>
+                        <a href="#"><img src="img/vk.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/instagram.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/facebook.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <figure>
+                <figcaption>Разработан<br>в студии:</figcaption>
+                <a href="https://lucky-site.com/"><img src="img/lucky.svg" alt=""></a>
+            </figure>
+            <p class="copyright">
+                © 2020 Салон шоколадных цветов "F .Lovers"
+            </p>
+        </div>
+    </footer>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-inner">
+            <a class="js-close-modal"><img src="img/close.svg" alt=""></a>
+            <div class="modal-content">
+
+                <h3>Быстрый заказ</h3>
+
+                <p>Оставьте свой номер телефона, и менеджер оформит заказ за Вас!</p>
+
+                <form class="popup-forma" id="feedback" name="feedback" method="POST">
+                    <ul class="form-list form-list_contact">
+                        <li>
+                            <label>Имя</label>
+                            <div>
+                                <input class="form-control" type="text" name="username" maxlength="30" value="">
+                            </div>
+                            <span class="error"></span>
+                        </li>
+                        <li>
+                            <label>Телефон</label>
+                            <div>
+
+                                <input class="form-control" type="text" data-type="tel" name="phone" data-required="true" placeholder="+7 (___)-___-__-__" value="">
+                            </div>
+                            <span class="error"></span>
+                        </li>
+
+                        <li>
+                            <label></label>
+                            <div class="button-wrap">
+                                <button id="send_mess" type="submit">Заказать</button>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="success-mess">
+        <div class="modal-inner">
+            <a class="js-close-modal"><img src="img/close.svg" alt=""></a>
+            <div class="modal-content">
+                <h3>Ваш заказ принят</h3>
+                <p>Наш менеджер свяжется с Вами в ближайшее время!</p>
+            </div>
+        </div>
+    </div>
+    <script src="utils/localStorageUtil.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>s

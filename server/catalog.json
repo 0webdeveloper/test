@@ -1,0 +1,121 @@
+[{
+        "id": "el1",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз и других цветов",
+        "img": "img/bouquet.jpg",
+        "flovers": "rose",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1290
+    },
+    {
+        "id": "el2",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "peonies",
+        "bouq": "basket",
+        "property": "new",
+        "price": 2000
+    },
+    {
+        "id": "el3",
+        "name": "Классика",
+        "excerpt": "Букет из 20 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "tulips",
+        "bouq": "box",
+        "property": "",
+        "price": 1492
+    },
+    {
+        "id": "el4",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "gerberas",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1493
+    },
+    {
+        "id": "el5",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "rose",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1494
+    },
+    {
+        "id": "el6",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "tulips",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1495
+    },
+    {
+        "id": "el7",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "peonies",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1496
+    },
+    {
+        "id": "el8",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "gerberas",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1497
+    },
+    {
+        "id": "el9",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "rose",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1498
+    },
+    {
+        "id": "el10",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "peonies",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1499
+    },
+    {
+        "id": "el11",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "gerberas",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1500
+    },
+    {
+        "id": "el12",
+        "name": "Классика",
+        "excerpt": "Букет из 19 шоколадных роз",
+        "img": "img/bouquet.jpg",
+        "flovers": "peonies",
+        "bouq": "bouq",
+        "property": "",
+        "price": 1501
+    }
+]
