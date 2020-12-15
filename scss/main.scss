@@ -752,7 +752,12 @@ nav ul {
 
 
 /* ****************************** left-sidebar-filter ******************************** */
-
+.left-sidebar {
+    form{
+        position: sticky;
+        top: 140px;
+    }
+}
 .ui-slider .ui-slider-handle {
     width: 26px;
     height: 26px;
